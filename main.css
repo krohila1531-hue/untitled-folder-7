@@ -1,0 +1,120 @@
+/* .list{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 200px;
+    padding: 8px;
+    border-radius: 15px;
+    text-align: center;
+    list-style: none;
+}
+ */
+
+.subtitle{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: cursive;
+    color: #3f5549;
+    margin-bottom: 2px;
+
+}
+.subtext{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 17px;
+}
+
+ .form{
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.todo-input{
+    width: 400px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid rgb(70, 96, 70);
+}
+.todo-btn{
+    width: 150px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid darkgreen;
+    background: #5d826d;
+    color: white;
+}
+.wrapper{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.all{
+    width: 190px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid rgb(47, 112, 56);
+    background: #5d826d;
+    color: white;
+    font-size: 20px;
+
+}
+.success{
+    width: 185px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid;
+    background-color: white;
+    color: #777;
+    font-size: 20px;
+
+}
+.danger{
+    width: 185px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid ;
+    background-color:white;
+    color: #777;
+    font-size: 20px;
+}
+.lst{
+    list-style: none;
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid darkgreen;
+
+}
+.item{
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.delete{
+    display: block;
+    margin-left: auto;
+    border-radius: 5px;
+    background: #ffb4b0;
+    color: #9e302a;
+
+}
+.edit{
+    display: block;
+    margin-left: 5px;
+    border-radius: 5px;
+    background: #c8d9c5;
+    color: #3f6045;
+}
